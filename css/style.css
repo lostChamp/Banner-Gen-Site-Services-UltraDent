@@ -1,0 +1,25 @@
+p, div, figure, figcaption, span, h1, h2, h3, h4, h5, a, section, body, hr, header, main, footer, form, input, button, svg, img, video, pre, textarea, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #383838;
+}
+
+.content {
+    width: 1320px;
+    margin: auto;
+    position: relative;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    position: relative;
+}
